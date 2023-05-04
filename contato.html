@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_menu_link" href="index.html"> Home</a>
+            <a class="cabecalho_menu_link" href="about.html">Sobre mim</a>
+            <a class="cabecalho_menu_link" href="curriculo.html">Currículo</a>
+            <a class="cabecalho_menu_link" href="certificados.html">Certificados</a>
+            <a class="cabecalho_menu_link" href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <section class="form-container">
+        <div class="container">
+            <form method="post" action="enviar.php">
+                <h1 class="apresentacao_conteudo_titulo" >Entre em contato : </h1>
+                <p>Preencha o formulário abaixo e aguarde nosso retorno.</p>
+                <div class="input-single">
+                    <input type="text" name=""   id="nome-box" class="input" autocomplete="off" name="nome" required >
+                    <label for="nome-box">Seu nome</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="" id="telefone-box" class="input"  autocomplete="off" mame="telefone" required>
+                    <label for="telefone-box">Seu telefone </label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="" id="email-box" class="input" autocomplete="off" name="email" required>
+                    <label for="email-box">Seu e-mail</label>
+                </div>
+                <div class="btn"><input type="submit" value="Enviar"></div>
+            </form>
+        </div>
+    </section>
+    <footer  class="rodape">
+        <p>Desenvolvido por Janyny Barbosa</p>
+        </footer>
+</body>
+</html>
